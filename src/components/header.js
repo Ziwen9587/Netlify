@@ -33,11 +33,11 @@ const Header = ({ siteTitle }) => (
           <ul>
             <h3>
               {/* <a><Link to="/">Homepage</Link></a> */}
-              <a href="https://daomao-first-netlify-site.netlify.app"><li>Home</li></a>
+              <a href="https://xiaoyangwang-first-netlify-site.netlify.app"><li>Home</li></a>
               {/* <a><Link to="/page-2/">Page_2</Link></a> */}
-              <a href="https://daomao-first-netlify-site.netlify.app/page-2/"><li>Page_2</li></a>
+              <a href="https://xiaoyangwang-first-netlify-site.netlify.app/page-2/"><li>Page_2</li></a>
               {/* <a><Link to="/using-typescript/">GoToUsingTypescript</Link></a> */}
-              <a href="https://daomao-first-netlify-site.netlify.app/using-typescript/"><li>GoToUsingTypescript</li></a>
+              <a href="https://xiaoyangwang-first-netlify-site.netlify.app/using-typescript/"><li>GoToUsingTypescript</li></a>
             </h3>
           </ul>
         </div>
