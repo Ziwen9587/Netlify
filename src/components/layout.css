@@ -5,6 +5,34 @@ html {
   box-sizing: border-box;
   overflow-y: scroll;
 }
+
+.content{
+  width: 100%;
+}
+.nav{
+  height: 48px;
+}
+.header{
+  margin: 0 auto;
+  
+}
+.header ul {
+  float: right;
+  padding: 0px 20px;
+}
+.header ul li{
+  float: left;
+  color:White;
+  display:table-cell;
+  line-height: 40px;
+  font-size: 22px;
+  padding-left: 24px;
+}
+
+.header ul li:hover a{
+  color:white;
+}
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;

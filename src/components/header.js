@@ -27,6 +27,22 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+
+      <div class="content nav">
+        <div class="header">
+          <ul>
+            <h3>
+              {/* <a><Link to="/">Homepage</Link></a> */}
+              <a href="http://localhost:8000"><li>Home</li></a>
+              {/* <a><Link to="/page-2/">Page_2</Link></a> */}
+              <a href="http://localhost:8000/page-2/"><li>Page_2</li></a>
+              {/* <a><Link to="/using-typescript/">GoToUsingTypescript</Link></a> */}
+              <a href="http://localhost:8000/using-typescript/"><li>GoToUsingTypescript</li></a>
+            </h3>
+          </ul>
+        </div>
+      </div>
+      
     </div>
   </header>
 )
